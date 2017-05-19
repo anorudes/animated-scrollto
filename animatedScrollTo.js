@@ -26,8 +26,6 @@
                 if (lastpos === element.scrollTop) {
                     lastpos = val;
                     element.scrollTop = val;
-                } else {
-                    animating = false;
                 }
             } else {
                 lastpos = val;
